@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        // Enforces .editorconfig rules
+        "EditorConfig.EditorConfig",
+        // Code formatter that respects EditorConfig
+        "esbenp.prettier-vscode",
+        // TypeScript and JavaScript support
+        "dbaeumer.vscode-eslint",
+        // Optional: Tailwind CSS intellisense (if you use Tailwind)
+        "bradlc.vscode-tailwindcss",
+        // Optional: GitLens for Git history
+        "eamodio.gitlens"
+    ],
+    "unwantedRecommendations": []
+}

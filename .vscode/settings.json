@@ -1,0 +1,28 @@
+{
+  // Make sure VS Code does not override EditorConfig
+  "editor.detectIndentation": false,
+
+  // Default editor formatting
+  "editor.insertSpaces": true,
+  "editor.tabSize": 4,
+
+  // Enable EditorConfig support (requires extension)
+  "editorconfig.enable": true,
+
+  // Auto-format on save (recommended)
+  "editor.formatOnSave": true,
+
+  // Apply trimming and newline behavior
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+
+  // Optional: Disable formatters that conflict
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
